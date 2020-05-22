@@ -1,0 +1,46 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="./style.css">
+		<title>Todo List</title>
+	</head>
+	<body>
+		<header>
+			<h1>To'Day List</h1>
+		</header>
+		<form>
+			<div class="container">
+				<div class="box-top">
+					<div class="box-input arrow_box">
+						<input type="text" class="todo-input">
+					</div>
+					<button class="todo-button" type="submit">
+						<i class="fas fa-plus-square"></i>
+					</button>
+				</div>
+				<div class="custom-select-wrapper">
+					<div class="custom-select">
+						<div class="custom-select__trigger">
+							<div class="spanSelect">
+								<span>All</span>
+							</div>
+							<div class="arrow"></div>
+						</div>
+						<div class="custom-options">
+							<span class="custom-option selected" data-value="all">All</span>
+							<span class="custom-option" data-value="completed">Completed</span>
+							<span class="custom-option" data-value="uncompleted">Uncompleted</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div class="todo-container">
+			<ul class="todo-list"></ul>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
