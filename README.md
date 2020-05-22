@@ -1,2 +1,3 @@
 # To-Day-App
-Blablabla
+
+To Do List App in HTML / CSS / Vanilla JS
